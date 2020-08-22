@@ -4,6 +4,7 @@
 %matrix perfectly computes difference equations for DSOs stationary for
 %quartics of degree at most 10.
 
+%The size of the finite matrix which is used as a stand-in for a Jacobi operator. Larger size is needed for higher degree polynomials.
 size = 51;
 %Creates a vector of indices centered at n
 nminus = strcat('n-', string(floor(size/2):-1:1));
